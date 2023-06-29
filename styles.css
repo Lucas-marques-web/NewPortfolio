@@ -1,0 +1,530 @@
+/* Define o estilo do corpo do documento */
+body {
+    background: black;
+    overflow-x: hidden;
+    height: 355vh;
+    width: 100vw;
+  }
+  
+  /* Define o estilo da barra de navegação */
+  .navbar {
+    box-sizing: border-box;
+    position: absolute;
+    width: 90%;
+    height: 11vh;
+    left: 5%;
+    top: 0vh;
+    background-color: #000000be;
+    border-width: 0px 4px 1px 0px;
+    border-style: solid;
+    border-color: #F26EFE;
+
+  }
+  
+  /* Define o estilo do container dos itens de navegação */
+  .frame-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 50vw;
+    position: absolute;
+    left: 0px;
+  }
+  
+  /* Define o estilo do container dos itens de navegação na barra de navegação */
+  .nav-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 2vw;
+    margin-top: 5vh;
+  }
+  
+  /* Define o estilo do item de navegação "portfolio" */
+  .portfolio {
+  height: 68px;
+  position: relative;
+  }
+  .navbar-toggler-icon{
+    display: none;
+  }
+  
+  /* Define o estilo do item de navegação "home" */
+  .home {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 2.5vh;
+    color: #e0aafa;
+    text-decoration: none;
+  }
+  
+  /* Define o estilo do item de navegação "about" */
+  .about {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 2.5vh;
+    color: #e0aafa;
+    text-decoration: none;
+  }
+  
+  /* Define o estilo do item de navegação "projects" */
+  .projects {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 2.5vh;
+    color: #e0aafa;
+    text-decoration: none;
+  }
+
+  /* Define o estilo do item de navegação "contact" */
+  .contact {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 2.5vh;
+    color: #e0aafa;
+    text-decoration: none;
+    
+  }
+  
+  /* Define o estilo do conteúdo principal */
+  .main-content {
+    position: relative;
+    width: 90vw;
+    height: 40vh;
+    left: 5%;
+    top: 20vh;
+  }
+  
+  /* Define o estilo do container do nome */
+  .div-name {
+    position: absolute;
+    width: 50vw;
+    height: 15vh;
+    left: 0px;
+    top: 12vh;
+  }
+  
+  /* Define o estilo do nome */
+  .h1-name {
+    position: absolute;
+    width: 46vw;
+    height: 12vh;
+    left: 0px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 12vh;
+    color: #d9d9d9;
+    -webkit-text-stroke: 1.5px #f26efe;
+  }
+  
+  /* Define o estilo do container do cargo */
+  .div-job {
+    position: absolute;
+    width: 50vw;
+    height: 15vh;
+    left: 0px;
+    top: 14vh;
+  }
+  
+  /* Define o estilo do cargo */
+  .h1-job {
+    position: absolute;
+    width: 46vw;
+    height: 12vh;
+    left: 14vw;
+    top: 12vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 12vh;
+    color: #ffffff;
+    -webkit-text-stroke: 1.5px #f26efe;
+  }
+  
+  /* Define o estilo da imagem do telefone */
+  .phone-img {
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    left: 45vw;
+    top:14vh;
+    transform: rotate(-10deg);
+    
+  }
+  
+  
+  /* Define o estilo do container dos "xo" */
+  .xoxo-div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1vw;
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+    left: 13vw;
+    top: 60vh;
+    opacity: 0.6;
+    transform: rotate(26.85deg);
+  }
+  
+  /* Define o estilo do primeiro "xo" */
+  .xo-1 {
+    width: 10vh;
+    height: 10vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8vh;
+    line-height: 10vh;
+    -webkit-text-stroke: 2px #f26efe;
+  }
+  
+  /* Define o estilo do segundo "xo" */
+  .xo-2 {
+    width: 10vh;
+    height: 10vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8vh;
+    line-height: 10vh;
+    -webkit-text-stroke: 2px #75fa9b;
+  }
+  
+  /* Define o estilo do container dos "xo" */
+  .xoxo-div-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1vw;
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+    left: 6vw;
+    top: 60vh;
+    opacity: 0.6;
+    transform: rotate(26.85deg);
+  }
+  
+  /* Define o estilo do terceiro "xo" */
+  .xo-3 {
+    width: 10vh;
+    height: 10vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8vh;
+    line-height: 10vh;
+    -webkit-text-stroke: 2px #75fa9b;
+  }
+  
+  /* Define o estilo do quarto "xo" */
+  .xo-4 {
+    width: 10vh;
+    height: 10vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8vh;
+    line-height: 10vh;
+    -webkit-text-stroke: 2px #f26efe;
+  }
+  
+  /* Define o estilo do corpo da seção "about" */
+  .about-body {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    top: 100vh;
+    background: #f26efe7a;
+  }
+  
+  /* Define o estilo do título da seção "about" */
+  .about-h2 {
+    position: relative;
+    width: 20vw;
+    height: 8vh;
+    left: 17vw;
+    top: 8vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 8vh;
+    color: #ffffff;
+  }
+  
+  /* Define o estilo do container da seção "about" */
+  .about-div {
+    position: absolute;
+    width: 80%;
+    height: 35vh;
+    left: 13vw;
+    top: 25vh;
+    border-width: 0px 1vh 0.4vh 0px;
+    border-style: solid;
+    border-color: #000000;
+  }
+  
+  /* Define o estilo da imagem da seção "about" */
+  .about-img {
+    position: relative;
+    left: 5vw;
+    width: 18vw;
+    border-radius: 100%;
+  }
+  
+  /* Define o estilo do texto da seção "about" */
+  .about-text {
+    padding-top: 13%;
+    padding-right: 2%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vh;
+    line-height: 3vh;
+    color: #ffffff;
+  }
+  
+  .projects-body{
+    position:relative;
+    top: 100vh;
+    height:105vh;
+  }
+  .next-button{
+    position: relative;
+    height: 10%;
+    width: 5%;
+    top: 20vh;
+    left: 57vw;
+  }
+  .before-button{
+    position: relative;
+    height: 10%;
+    width: 5%;
+    top: 20vh;
+    transform: rotate(-180deg);
+    left: 5vw;
+
+
+  }
+    /* Define o estilo do título da seção "projects" */
+  .projects-h2 {
+    position: absolute;
+    width: 9vw;
+    height: 8vh;
+    left: 17vw;
+    top: 18vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 8vh;
+    color: #ffffff;
+  }
+  .projects-div{
+    position:relative;
+    top:30vh;
+    width: 70%;
+   margin: auto;
+   border:2px solid #f26efe;
+  }
+  .card{
+    color: white;
+    background-color: #000000;
+  }
+  .projects-img{
+    height: 50vh;
+    padding: 1%;
+    width: auto;
+     margin:auto;
+  }
+
+  /* Define o estilo do rodapé */
+  footer {
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+    top: 100vh;
+    padding-top: 30vh;
+    text-align: center;
+    color: #f26efe;
+    background-color: #000000;
+  }
+  
+  /* Define o estilo do container das imagens do rodapé */
+  .footer-img-div {
+    width: 20vw;
+    height: 7vh;
+    position: relative;
+    margin: auto;
+    padding-top: 1vh;
+  }
+  
+  /* Define o estilo da imagem do LinkedIn no rodapé */
+  .linkedin-img {
+    margin-right: 2vw;
+    margin-bottom: 1vh;
+    border-radius: 10px;
+    width: 7vh;
+    height: 7vh;
+  }
+  
+  /* Define o estilo da imagem do Gmail no rodapé */
+  .gmail-img {
+    margin-right: 1vw;
+    margin-bottom: 1vh;
+    border-radius: 10px;
+    width: 7vh;
+    height: 7vh;
+  }
+.github-img{
+  margin-bottom: 1vh;
+  border-radius: 10px;
+  width: 9vh;
+  height: 9vh;
+}
+
+  @media only screen and (max-width: 980px) {
+    
+    /* Define o estilo do container dos itens de navegação */
+    .frame-4 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      gap: 45vw;
+      position: absolute;
+      left: 0px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 600px) {
+      /* Define o estilo do container do nome */
+    .div-name {
+      position: absolute;
+      width: 70vw;
+      height: 15vh;
+      left: 0px;
+      top: 12vh;
+    }
+ 
+    .h1-name{
+      position: absolute;
+    width: 100%;
+    height: 12vh;
+    left: 0px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 12vh;
+    color: #f26efe;
+    }
+     
+  /* Define o estilo do container do cargo */
+  .div-job {
+    position: absolute;
+    width: 70vw;
+    height: 15vh;
+    left: 0px;
+    top: 9vh;
+  }
+    .h1-job{
+      position: absolute;
+      width: 100%;
+      height: 12vh;
+      left: 14vw;
+      top: 12vh;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 12vh;
+      color: #f26efe;
+    }
+    .phone-img{
+      display: none;
+    }
+    .xoxo-div {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 1vw;
+      position: absolute;
+      width: 20vw;
+      height: 10vh;
+      left: 30vw;
+      top: 58vh;
+      opacity: 0.6;
+      transform: rotate(26.85deg);
+    }
+    .about-h2 {
+      position: relative;
+      width: 40%;
+      height: 8vh;
+      left: 17vw;
+      top: 8vh;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 8vh;
+      color: #ffffff;
+    }
+    .projects-body p{
+      display: none;
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+
+    /* Define o estilo do título da seção "projects" */
+  .projects-h2 {
+    position: absolute;
+    width: 9vw;
+    height: 8vh;
+    left: 17vw;
+    top: 18vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 8vh;
+    color: #ffffff;
+  }
+    .projects-img{
+      height: 30vh;
+      padding: 1%;
+      width: 100%;
+       margin:auto;
+    }
+     /* Define o estilo da imagem do Gmail no rodapé */
+  .gmail-img {
+    margin-right: 2vw;
+    margin-bottom: 1vh;
+    border-radius: 10px;
+    width: 7vh;
+    height: 7vh;
+  }
+  }
